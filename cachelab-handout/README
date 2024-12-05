@@ -1,0 +1,37 @@
+This is the handout directory for the CS:APP Cache Lab.
+
+************************
+Running the autograders:
+************************
+
+Before running the autograders, compile your code:
+    linux> make
+
+Check the correctness of your set-associative simulator:
+    linux> python3 test-csim.py
+
+Check the correctness of your unique cache simulator:	
+    linux> python3 test-csim_new.py
+
+Check everything at once (this is the program that your instructor runs):
+    linux> python3 driver.py
+
+******
+Files:
+******
+
+# You will modifying and handing in these two files
+csim.c       Your set-associative cache simulator
+csim_new.c      Your unique cache simulator
+
+# Tools for evaluating your simulators
+Makefile     		Builds the simulator and tools
+README       		This file
+driver.py*   		The driver program, runs test-csim.py and test-csim_new.py files
+cachelab.c   		Required helper functions
+cachelab.h   		Required header file
+csim-ref*    		The executable reference cache simulator
+test-csim.py   		Tests your cache simulator
+test-csim_new.py   	Tests your cache simulator
+traces/      		Trace files used by test-csim.c
+
