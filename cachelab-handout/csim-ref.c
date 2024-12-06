@@ -15,6 +15,13 @@
  * The function printSummary() is given to print output.
  * Please use this function to print the number of hits, misses and evictions.
  * This is crucial for the driver to evaluate your work. 
+ * 
+ * Marco Ferreira - maf407
+ * Katelyn DePaul kmd390
+ * Ethan Shindin es1231
+ * Adrian Delgado aed136
+ * Richard Baah rbb98
+ * 
  */
 #include <getopt.h>
 #include <stdlib.h>
